@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.12
 
 # Requirements are installed here to ensure they will be cached.
 COPY ./requirements /requirements
